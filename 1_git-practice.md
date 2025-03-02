@@ -9,7 +9,7 @@ Perform below operations on private-repo from Git Bash:
 
 4. Add Private Remote Repository’s ssh url locally 
 
-           git remote add origin ssh_url
+           git remote set-url origin https://Abhishekpawar1086:TOKEN@github.com/Abhishekpawar1086/terraform-scripts.git
            
 5. Pull the changes from Remote Repository to sync Local Repository
             
