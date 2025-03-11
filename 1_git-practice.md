@@ -55,12 +55,13 @@ Perform below operations on private-repo from Git Bash:
 14. Check the difference using below command
 
            Generate ssh-keygen
-           Cmd 1ssh-keygen
-            Press Enter 3 times
+           Cmd ssh-keygen
+           Press Enter 3 times
            cat /root/.ssh/id_ed25519.pub
-            now copy that key and paste it in git hub
+           now copy that key and paste it in git hub
             settings > SSH And GPG keys
-             nad paste it in new SSH key
+           and paste it in new SSH key
+           now clone ssh key not https
                 
            git difftool testfile
            
